@@ -7,8 +7,9 @@ verify_ssl = true
 
 [packages]
 sklearn = "*"
-jupyter = "*"
 matplotlib = "*"
+jupyter = "*"
+pywin32 = {version = "!= 226", sys_platform = "== 'win32'"}
 
 [requires]
 python_version = "3.7"
